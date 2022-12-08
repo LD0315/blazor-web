@@ -59,3 +59,8 @@ C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\ref\blazor-web.Server.dll
 C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.pdb
 C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.genruntimeconfig.cache
 C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.Extensions.dll
+C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

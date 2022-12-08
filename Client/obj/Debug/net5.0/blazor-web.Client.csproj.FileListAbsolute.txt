@@ -1,7 +1,6 @@
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\blazor-web.Client.StaticWebAssets.xml
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\blazor-web.Client.dll
-C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\ref\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\blazor-web.Client.pdb
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\wwwroot\_framework\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\wwwroot\_framework\blazor-web.Client.pdb
@@ -634,3 +633,7 @@ C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\blazor-web.Client.csproj.CopyCo
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\ref\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\blazor-web.Client.pdb
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ProductList.razor.g.cs
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\Razor\Shared\ProductList.razor.g.cs
+C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\ref\blazor-web.Client.dll
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\scopedcss\Shared\ProductList.razor.rz.scp.css

@@ -1,8 +1,8 @@
-﻿using blazor_web.Shared;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
 namespace blazor_web.Server
+
 {
     public class Program
     {
@@ -18,4 +18,5 @@ namespace blazor_web.Server
                     webBuilder.UseStartup<Startup>();
                 });
     }
+
 }
