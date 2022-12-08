@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wxOcrYcWVResL8+on3amsUFezLREqlQ2nb8UHAz03PJU2uHaF8dWabEbSiBIGdbsuluIBy3xrqmtOCk1Yhtf1Q==",
+  "dgSpecHash": "xu6Bf5WFBVY1rYRSgKejsZIca/PDd7kQvo5L+LRJQC8m+Cv846TepfjMB1pDHdWgd/3kN7YXF1GojFASKgja4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Server.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.17\\microsoft.aspnetcore.components.analyzers.5.0.17.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\5.0.17\\microsoft.aspnetcore.components.forms.5.0.17.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.web\\5.0.17\\microsoft.aspnetcore.components.web.5.0.17.nupkg.sha512",
+    "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.web.extensions\\5.0.0-preview9.20467.1\\microsoft.aspnetcore.components.web.extensions.5.0.0-preview9.20467.1.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\5.0.17\\microsoft.aspnetcore.components.webassembly.5.0.17.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\5.0.17\\microsoft.aspnetcore.components.webassembly.server.5.0.17.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\microsoft.aspnetcore.metadata\\5.0.17\\microsoft.aspnetcore.metadata.5.0.17.nupkg.sha512",

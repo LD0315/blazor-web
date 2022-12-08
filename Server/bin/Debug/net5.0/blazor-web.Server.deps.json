@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "blazor-web.Server/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Web.Extensions": "5.0.0-preview9.20467.1",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.17",
           "blazor-web.Client": "1.0.0",
           "blazor-web.Shared": "1.0.0",
@@ -381,6 +382,21 @@
         },
         "compile": {
           "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web.Extensions/5.0.0-preview9.20467.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.17",
+          "Microsoft.JSInterop": "5.0.17"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.46701"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.dll": {}
         }
       },
       "Microsoft.AspNetCore.Components.WebAssembly/5.0.17": {
@@ -2250,6 +2266,13 @@
       "sha512": "sha512-XR2v5NxPHMqFWaUWZj/xTUekxjub4CUAOhxw7VNgCmh2Mtu3cIqQqyAUseZPlp5SvJC3SVRA00/M9fMwDJinPA==",
       "path": "microsoft.aspnetcore.components.web/5.0.17",
       "hashPath": "microsoft.aspnetcore.components.web.5.0.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web.Extensions/5.0.0-preview9.20467.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KKzQu5wAC1eTbKYbyxMm7639z2wDLpos3uhwvZDoYZgndlbH4QvUaFJeZ9S1Rac+yBLFVqg8OkwptnIy24Gwbw==",
+      "path": "microsoft.aspnetcore.components.web.extensions/5.0.0-preview9.20467.1",
+      "hashPath": "microsoft.aspnetcore.components.web.extensions.5.0.0-preview9.20467.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.WebAssembly/5.0.17": {
       "type": "package",

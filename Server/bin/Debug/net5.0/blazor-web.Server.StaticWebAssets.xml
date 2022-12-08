@@ -2,4 +2,5 @@
   <ContentRoot BasePath="/" Path="C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="C:\Users\4504\blazor-web\Client\wwwroot\" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.Web.Extensions" Path="C:\Users\4504\.nuget\packages\microsoft.aspnetcore.components.web.extensions\5.0.0-preview9.20467.1\build\..\staticwebassets\" />
 </StaticWebAssets>

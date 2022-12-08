@@ -58,3 +58,4 @@ C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.dll
 C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\ref\blazor-web.Server.dll
 C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.pdb
 C:\Users\4504\blazor-web\Server\obj\Debug\net5.0\blazor-web.Server.genruntimeconfig.cache
+C:\Users\4504\blazor-web\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.Extensions.dll

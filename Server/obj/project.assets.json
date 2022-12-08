@@ -63,6 +63,25 @@
           "lib/net5.0/Microsoft.AspNetCore.Components.Web.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Web.Extensions/5.0.0-preview9.20467.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0-rc.1.20451.17",
+          "Microsoft.JSInterop": "5.0.0-rc.1.20451.17"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.AspNetCore.Components.Web.Extensions.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.AspNetCore.Components.Web.Extensions.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Components.WebAssembly/5.0.17": {
         "type": "package",
         "dependencies": {
@@ -421,6 +440,26 @@
         "lib/net5.0/Microsoft.AspNetCore.Components.Web.xml",
         "microsoft.aspnetcore.components.web.5.0.17.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web.Extensions/5.0.0-preview9.20467.1": {
+      "sha512": "KKzQu5wAC1eTbKYbyxMm7639z2wDLpos3uhwvZDoYZgndlbH4QvUaFJeZ9S1Rac+yBLFVqg8OkwptnIy24Gwbw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web.extensions/5.0.0-preview9.20467.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/Microsoft.AspNetCore.Components.Web.Extensions.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Microsoft.AspNetCore.Components.Web.Extensions.props",
+        "buildTransitive/Microsoft.AspNetCore.Components.Web.Extensions.props",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.pdb",
+        "lib/net5.0/Microsoft.AspNetCore.Components.Web.Extensions.xml",
+        "microsoft.aspnetcore.components.web.extensions.5.0.0-preview9.20467.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.extensions.nuspec",
+        "staticwebassets/headManager.js"
       ]
     },
     "Microsoft.AspNetCore.Components.WebAssembly/5.0.17": {
@@ -868,6 +907,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.AspNetCore.Components.Web.Extensions >= 5.0.0-preview9.20467.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.17",
       "blazor-web.Client >= 1.0.0",
       "blazor-web.Shared >= 1.0.0"
@@ -923,6 +963,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Web.Extensions": {
+            "target": "Package",
+            "version": "[5.0.0-preview9.20467.1, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[5.0.17, )"
