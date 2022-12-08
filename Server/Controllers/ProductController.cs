@@ -14,25 +14,25 @@ namespace blazor_web.Server.Controllers
         new Product
         {
             Id = 1,
-            Title = "The Hitchhiker's Guide to the Galaxy",
-            Description = "The Hitchhiker's Guide to the Galaxy[note 1] (sometimes referred to as HG2G,[1] HHGTTG,[2] H2G2,[3] or tHGttG) is a comedy science fiction franchise created by Douglas Adams. Originally a 1978 radio comedy broadcast on BBC Radio 4, it was later adapted to other formats, including novels, stage shows, comic books, a 1981 TV series, a 1984 text-based computer game, and 2005 feature film.",
-            ImageUrl = "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
+            Title = "Winnie-the-Pooh",
+            Description = "Winnie-the-Pooh, also called Pooh Bear and Pooh, is a fictional anthropomorphic teddy bear created by English author A. A. Milne and English illustrator E. H. Shepard.The first collection of stories about the character was the book Winnie-the-Pooh (1926), and this was followed by The House at Pooh Corner (1928). Milne also included a poem about the bear in the children's verse book When We Were Very Young (1924) and many more in Now We Are Six (1927). All four volumes were illustrated by E. H. Shepard.",
+            ImageUrl = "https://static.tvtropes.org/pmwiki/pub/images/pooh_bridge.png",
             Price = 9.99m
         },
          new Product
         {
             Id = 2,
-            Title = "Ready Player One",
-            Description = "Ready Player One is a 2011 science fiction novel, and the debut novel of American author Ernest Cline. The story, set in a dystopia in 2045, follows protagonist Wade Watts on his search for an Easter egg in a worldwide virtual reality game, the discovery of which would lead him to inherit the game creator's fortune. Cline sold the rights to publish the novel in June 2010, in a bidding war to the Crown Publishing Group (a division of Random House).[1] The book was published on August 16, 2011.[2] An audiobook was released the same day; it was narrated by Wil Wheaton, who was mentioned briefly in one of the chapters.[3][4]Ch. 20 In 2012, the book received an Alex Award from the Young Adult Library Services Association division of the American Library Association[5] and won the 2011 Prometheus Award.[6]",
-            ImageUrl = "https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg",
+            Title = "Moomins",
+            Description = "The Moomins (Swedish: Mumintroll) are the central characters in a series of novels, short stories, and a comic strip by Finnish writer and illustrator Tove Jansson, originally published in Swedish by Schildts[2] in Finland. They are a family of white, round fairy-tale characters with large snouts that make them resemble the hippopotamus. However, despite this resemblance, the Moomin family are trolls. The family live in their house in Moominvalley and have had many adventures with their various friends.",
+            ImageUrl = "https://m.media-amazon.com/images/M/MV5BYmZhYWI0OTItMjkzNS00ODM2LWEwZTktNTc0ODMzMTYwMTBlXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
             Price = 7.99m
         },
           new Product
         {
             Id = 3,
-            Title = "Nineteen Eighty-Four",
-            Description = "Nineteen Eighty-Four (also stylised as 1984) is a dystopian social science fiction novel and cautionary tale written by the English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society.[2][3] Orwell, a democratic socialist, modelled the authoritarian state in the novel on Stalinist Russia and Nazi Germany.[2][3][4] More broadly, the novel examines the role of truth and facts within societies and the ways in which they can be manipulated.",
-            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/1984first.jpg/800px-1984first.jpg",
+            Title = "Heidi",
+            Description = "Heidi (/ˈhaɪdi/; German: [ˈhaɪdi]) is a work of children's fiction published in 1881 by Swiss author Johanna Spyri, originally published in two parts as Heidi: Her Years of Wandering and Learning[1] (German: Heidis Lehr- und Wanderjahre) and Heidi: How She Used What She Learned[2] (German: Heidi kann brauchen, was es gelernt hat).[3] It is a novel about the events in the life of a 5-year-old girl in her paternal grandfather's care in the Swiss Alps. It was written as a book for children and those who love children (as quoted from its subtitle).",
+            ImageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBIQTRvceBokJ_GeZb7Dgkojzg1q27S17F0aHYeJImK3Gw2FeggPU51IEGSWOz0ZQc-hY&usqp=CAU",
             Price = 6.99m
         },
      };
