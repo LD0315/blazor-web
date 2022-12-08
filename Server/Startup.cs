@@ -24,11 +24,14 @@ namespace blazor_web.Server
         {
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSwaggerUI();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -41,7 +44,9 @@ namespace blazor_web.Server
                 app.UseHsts();
             }
 
+            app.UseSwagger();
             app.UseHttpsRedirection();
+
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
 
