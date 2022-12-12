@@ -397,6 +397,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -2812,6 +2824,30 @@
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.5.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+      "sha512": "ldiZtmhBXJBvBHLUUglCL2n0RFoaXwR3fnvY0Tn0U70V4gafA2ny7vf1d/Gh4ai9qyj/wVJOj4RN8HAy4wjqTw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/5.0.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/_._",
+        "microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -7499,11 +7535,13 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj",
       "EntityFramework >= 6.4.4",
       "Microsoft.AspNetCore.Components.Web.Extensions >= 5.0.0-preview9.20467.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.14",
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "UnitOfWork.EntityFramWorkCore >= 5.0.0",
       "blazor-web.Client >= 1.0.0",
@@ -7544,6 +7582,9 @@
             "C:\\Users\\4504\\blazor-web\\Client\\blazor-web.Client.csproj": {
               "projectPath": "C:\\Users\\4504\\blazor-web\\Client\\blazor-web.Client.csproj"
             },
+            "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj": {
+              "projectPath": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj"
+            },
             "C:\\Users\\4504\\blazor-web\\Shared\\blazor-web.Shared.csproj": {
               "projectPath": "C:\\Users\\4504\\blazor-web\\Shared\\blazor-web.Shared.csproj"
             }
@@ -7582,6 +7623,12 @@
             "target": "Package",
             "version": "[5.0.14, )"
           },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.4, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -7613,5 +7660,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
