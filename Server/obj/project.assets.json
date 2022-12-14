@@ -7535,7 +7535,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj",
       "EntityFramework >= 6.4.4",
       "Microsoft.AspNetCore.Components.Web.Extensions >= 5.0.0-preview9.20467.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.17",
@@ -7581,9 +7580,6 @@
           "projectReferences": {
             "C:\\Users\\4504\\blazor-web\\Client\\blazor-web.Client.csproj": {
               "projectPath": "C:\\Users\\4504\\blazor-web\\Client\\blazor-web.Client.csproj"
-            },
-            "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj": {
-              "projectPath": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj"
             },
             "C:\\Users\\4504\\blazor-web\\Shared\\blazor-web.Shared.csproj": {
               "projectPath": "C:\\Users\\4504\\blazor-web\\Shared\\blazor-web.Shared.csproj"
@@ -7660,16 +7656,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

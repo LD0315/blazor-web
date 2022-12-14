@@ -26,7 +26,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Client\blazor-web.Client.csproj" />
     <ProjectReference Include="..\Shared\blazor-web.Shared.csproj" />
-    <ProjectReference Include="..\Server\blazor-web.Shared.csproj" />
   </ItemGroup>
 
 

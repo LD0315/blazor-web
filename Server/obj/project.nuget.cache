@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O7pWOXkjk0g1ljWgXZFhhcvMlA3CH9bd2pqoXOkygwG+4xTITdmdxF5HYHmMihUtGhRrn3rLKhDqrlUu+TlNow==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Server.csproj",
+  "dgSpecHash": "rJ4+m7YnlTsbVu7retBdwxFbfWO+1MqZ5VcB7rhWeMSkMLzVsuEGeyVUApV/8DC94Y+rixUkS0KynyMvuQFyAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\4504\\blazor-web\\server\\blazor-web.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\4504\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -137,15 +137,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\unitofwork.entityframworkcore\\5.0.0\\unitofwork.entityframworkcore.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Shared.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

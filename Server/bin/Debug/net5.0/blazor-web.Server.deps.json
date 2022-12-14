@@ -38,6 +38,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "5.0.17",
           "Microsoft.EntityFrameworkCore.Design": "5.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.4",
           "Swashbuckle.AspNetCore": "6.4.0",
           "UnitOfWork.EntityFramWorkCore": "5.0.0",
           "blazor-web.Client": "1.0.0",
@@ -644,6 +645,11 @@
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.14"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -3512,6 +3518,13 @@
       "sha512": "sha512-JTw4oJ7fa//hVaETu9UuUBH4DLngWV99Rbf1SOOtB+toLKQltfsLHnUu6CiSwH+MmnYd4rT+HMoxYEGov2sOHA==",
       "path": "microsoft.entityframeworkcore.sqlserver/5.0.14",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.5.0.14.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ldiZtmhBXJBvBHLUUglCL2n0RFoaXwR3fnvY0Tn0U70V4gafA2ny7vf1d/Gh4ai9qyj/wVJOj4RN8HAy4wjqTw==",
+      "path": "microsoft.entityframeworkcore.tools/5.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",
