@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rJ4+m7YnlTsbVu7retBdwxFbfWO+1MqZ5VcB7rhWeMSkMLzVsuEGeyVUApV/8DC94Y+rixUkS0KynyMvuQFyAw==",
+  "dgSpecHash": "PGb/+1Z/UNPcuiFMDoui+Wn4J3RGFvE7TOAPcUX0CxxMtJHlfX1WBrXSlW/2VGIUq/Z4KCvkhDbWj08A/S0Byw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\4504\\blazor-web\\server\\blazor-web.Server.csproj",
+  "projectFilePath": "C:\\Users\\4504\\blazor-web\\Server\\blazor-web.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\4504\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\4504\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

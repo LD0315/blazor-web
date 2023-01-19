@@ -86,10 +86,10 @@ using blazor_web.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class ProductList : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ProductList : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
             __builder.OpenElement(0, "ul");
             __builder.AddAttribute(1, "class", "list-unstyled");
@@ -145,44 +145,38 @@ using blazor_web.Shared;
             __builder.OpenElement(24, "h4");
             __builder.AddAttribute(25, "class", "mb-0");
             __builder.AddAttribute(26, "b-7o5vn9wfjj");
-            __builder.AddContent(27, 
 #nullable restore
 #line 14 "C:\Users\4504\blazor-web\Client\Shared\ProductList.razor"
-                                      product.Title
+__builder.AddContent(27, product.Title);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.AddMarkupContent(28, "\r\n                ");
             __builder.OpenElement(29, "p");
             __builder.AddAttribute(30, "b-7o5vn9wfjj");
-            __builder.AddContent(31, 
 #nullable restore
 #line 16 "C:\Users\4504\blazor-web\Client\Shared\ProductList.razor"
-                    product.Description
+__builder.AddContent(31, product.Description);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(32, "\r\n                ");
             __builder.OpenElement(33, "h5");
             __builder.AddAttribute(34, "class", "price");
             __builder.AddAttribute(35, "b-7o5vn9wfjj");
             __builder.AddMarkupContent(36, "\r\n                    $");
-            __builder.AddContent(37, 
 #nullable restore
 #line 18 "C:\Users\4504\blazor-web\Client\Shared\ProductList.razor"
-                      product.Price
+__builder.AddContent(37, product.Price);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();

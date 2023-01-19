@@ -8,4 +8,5 @@ C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\blazor-web.Shared.csproj.CoreCo
 C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\blazor-web.Shared.dll
 C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\ref\blazor-web.Shared.dll
 C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\blazor-web.Shared.pdb
-C:\Users\4504\blazor-web\Shared\bin\Debug\net5.0\ref\blazor-web.Shared.dll
+C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\blazor-web.Shared.csproj.AssemblyReference.cache
+C:\Users\4504\blazor-web\Shared\obj\Debug\net5.0\refint\blazor-web.Shared.dll

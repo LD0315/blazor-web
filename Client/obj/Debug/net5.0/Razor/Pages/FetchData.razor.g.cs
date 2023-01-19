@@ -86,11 +86,11 @@ using blazor_web.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    [global::Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
+    public partial class FetchData : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
             __builder.AddMarkupContent(0, "<h1>Weather forecast</h1>\r\n\r\n");
             __builder.AddMarkupContent(1, "<p>This component demonstrates fetching data from the server.</p>");
@@ -126,51 +126,43 @@ else
 #nullable disable
             __builder.OpenElement(7, "tr");
             __builder.OpenElement(8, "td");
-            __builder.AddContent(9, 
 #nullable restore
 #line 28 "C:\Users\4504\blazor-web\Client\Pages\FetchData.razor"
-                         forecast.Date.ToShortDateString()
+__builder.AddContent(9, forecast.Date.ToShortDateString());
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(10, "\r\n                    ");
             __builder.OpenElement(11, "td");
-            __builder.AddContent(12, 
 #nullable restore
 #line 29 "C:\Users\4504\blazor-web\Client\Pages\FetchData.razor"
-                         forecast.TemperatureC
+__builder.AddContent(12, forecast.TemperatureC);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(13, "\r\n                    ");
             __builder.OpenElement(14, "td");
-            __builder.AddContent(15, 
 #nullable restore
 #line 30 "C:\Users\4504\blazor-web\Client\Pages\FetchData.razor"
-                         forecast.TemperatureF
+__builder.AddContent(15, forecast.TemperatureF);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.AddMarkupContent(16, "\r\n                    ");
             __builder.OpenElement(17, "td");
-            __builder.AddContent(18, 
 #nullable restore
 #line 31 "C:\Users\4504\blazor-web\Client\Pages\FetchData.razor"
-                         forecast.Summary
+__builder.AddContent(18, forecast.Summary);
 
 #line default
 #line hidden
 #nullable disable
-            );
             __builder.CloseElement();
             __builder.CloseElement();
 #nullable restore

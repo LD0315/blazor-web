@@ -86,10 +86,10 @@ using blazor_web.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class NavMenu : global::Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
-        protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
+        protected override void BuildRenderTree(global::Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "top-row pl-4 navbar navbar-dark");
@@ -97,7 +97,7 @@ using blazor_web.Shared;
             __builder.AddMarkupContent(3, "<a class=\"navbar-brand\" href b-jrqwqa8jv2>blazor-web</a>\r\n    ");
             __builder.OpenElement(4, "button");
             __builder.AddAttribute(5, "class", "navbar-toggler");
-            __builder.AddAttribute(6, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddAttribute(6, "onclick", global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 3 "C:\Users\4504\blazor-web\Client\Shared\NavMenu.razor"
                                              ToggleNavMenu
@@ -121,7 +121,7 @@ using blazor_web.Shared;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddAttribute(12, "onclick", global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 8 "C:\Users\4504\blazor-web\Client\Shared\NavMenu.razor"
                                         ToggleNavMenu
@@ -137,10 +137,10 @@ using blazor_web.Shared;
             __builder.OpenElement(17, "li");
             __builder.AddAttribute(18, "class", "nav-item px-3");
             __builder.AddAttribute(19, "b-jrqwqa8jv2");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(20);
+            __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(20);
             __builder.AddAttribute(21, "class", "nav-link");
             __builder.AddAttribute(22, "href", "");
-            __builder.AddAttribute(23, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddAttribute(23, "Match", global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 11 "C:\Users\4504\blazor-web\Client\Shared\NavMenu.razor"
                                                      NavLinkMatch.All
@@ -149,7 +149,7 @@ using blazor_web.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(24, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+            __builder.AddAttribute(24, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(25, "<span class=\"oi oi-home\" aria-hidden=\"true\" b-jrqwqa8jv2></span> Home\r\n            ");
             }
             ));
@@ -159,10 +159,10 @@ using blazor_web.Shared;
             __builder.OpenElement(27, "li");
             __builder.AddAttribute(28, "class", "nav-item px-3");
             __builder.AddAttribute(29, "b-jrqwqa8jv2");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(30);
+            __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(30);
             __builder.AddAttribute(31, "class", "nav-link");
             __builder.AddAttribute(32, "href", "counter");
-            __builder.AddAttribute(33, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+            __builder.AddAttribute(33, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(34, "<span class=\"oi oi-plus\" aria-hidden=\"true\" b-jrqwqa8jv2></span> Counter\r\n            ");
             }
             ));
@@ -172,10 +172,10 @@ using blazor_web.Shared;
             __builder.OpenElement(36, "li");
             __builder.AddAttribute(37, "class", "nav-item px-3");
             __builder.AddAttribute(38, "b-jrqwqa8jv2");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(39);
+            __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.NavLink>(39);
             __builder.AddAttribute(40, "class", "nav-link");
             __builder.AddAttribute(41, "href", "fetchdata");
-            __builder.AddAttribute(42, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+            __builder.AddAttribute(42, "ChildContent", (global::Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
                 __builder2.AddMarkupContent(43, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\" b-jrqwqa8jv2></span> Fetch data\r\n            ");
             }
             ));

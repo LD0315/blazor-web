@@ -635,5 +635,10 @@ C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\ref\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\blazor-web.Client.pdb
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ProductList.razor.g.cs
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\Razor\Shared\ProductList.razor.g.cs
-C:\Users\4504\blazor-web\Client\bin\Debug\net5.0\ref\blazor-web.Client.dll
 C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\scopedcss\Shared\ProductList.razor.rz.scp.css
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\staticwebassets\blazor-web.Client.StaticWebAssets.Pack.cache
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\staticwebassets\msbuild.blazor-web.Client.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\staticwebassets\msbuild.build.blazor-web.Client.props
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.blazor-web.Client.props
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.blazor-web.Client.props
+C:\Users\4504\blazor-web\Client\obj\Debug\net5.0\refint\blazor-web.Client.dll
